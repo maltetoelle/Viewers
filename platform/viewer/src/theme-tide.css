@@ -14,8 +14,10 @@
     --ui-border-color: #44626F;
     --ui-border-color-dark: #3C5D80;
     --ui-border-color-active: #00a4d9;
-    --primary-background-color: #000000;
-    --box-background-color: #3E5975;
+    --primary-background-color: #f8f9fa;
+    --box-background-color: #f8f9fa;
+
+    --background-color-floto: #f8f9fa;
 
     /* Common palette */
     --ui-yellow: #E29E4A;
@@ -25,25 +27,25 @@
     --ui-state-error-border: #993333;
     --ui-state-error-text: #661111;
     --ui-gray-light: #516873;
-    --ui-gray: #263340;
-    --ui-gray-dark: #16202B;
-    --ui-gray-darker: #151A1F;
-    --ui-gray-darkest: #14202A;
+    --ui-gray: #f8f9fa;
+    --ui-gray-dark: #000000;
+    --ui-gray-darker: #bfd1da;
+    --ui-gray-darkest: #f8f9fa;
 
     /* Text Colors */
     --text-color-active: #000000;
-    --text-primary-color: #ffffff;
-    --text-secondary-color: #91b9cd;
-    --large-numbers-color: #6fbde2;
+    --text-primary-color: #647881;
+    --text-secondary-color: #647881;
+    --large-numbers-color: #647881;
     --text-disabled-color: #878787;
 
-    --input-background-color: #2c363f;
-    --input-placeholder-color--hover: #4d5a63;
+    --input-background-color: #7c95ac;
+    --input-placeholder-color--hover: #8aa4b8;
     --input-placeholder-color: #d3d3d3;
 
 
-    --table-hover-color: #2c363f;
-    --table-text-primary-color: #ffffff;
+    --table-hover-color: #7c95ac;
+    --table-text-primary-color: #00000094;
     --table-text-secondary-color: #91b9cd;
 
     --large-numbers-color:#6FBDE2;

@@ -62,21 +62,21 @@ function Header(props) {
 
   return (
     <>
-      <div className="notification-bar">{t('INVESTIGATIONAL USE ONLY')}</div>
+      {/* <div className="notification-bar">{t('INVESTIGATIONAL USE ONLY')}</div> */}
       <div
-        className={classNames('entry-header', { 'header-big': useLargeLogo })}
+        className={classNames('entry-header')}//, { 'header-big': useLargeLogo })}
       >
         <div className="header-left-box">
-          {location && location.studyLink && (
+          {/* {location && location.studyLink && (
             <Link
               to={location.studyLink}
               className="header-btn header-viewerLink"
             >
               {t('Back to Viewer')}
             </Link>
-          )}
+          )} */}
 
-          {children}
+          {/* {children} */}
 
           {hasLink && (
             <Link
@@ -91,10 +91,10 @@ function Header(props) {
           )}
         </div>
 
-        <div className="header-menu">
+        {/* <div className="header-menu">
           <span className="research-use">{t('INVESTIGATIONAL USE ONLY')}</span>
           <Dropdown title={t('Options')} list={options} align="right" />
-        </div>
+        </div> */}
       </div>
     </>
   );

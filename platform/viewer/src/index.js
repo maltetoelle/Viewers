@@ -38,6 +38,79 @@ import { version } from '../package.json';
  * Default Settings
  */
 let config = {};
+// console.log('HERE')
+// console.log(process.env.APP_CONFIG)
+// const backendURL = process.env.REACT_APP_BACKEND_URL
+// let datasetID = process.env.REACT_APP_DATASET_ID //.toString()
+// const username = process.env.REACT_APP_BACKEND_USERNAME
+// let password = process.env.REACT_APP_BACKEND_PASSWORD //.toString()
+
+// if (typeof datasetID !== string) {
+//   datasetID = datasetID.toString()
+// }
+// if (typeof password !== string) {
+//   password = password.toString()
+// }
+
+// console.log('BACKEND URL', backendURL)
+// console.log('DS ID', datasetID)
+// console.log('username', username)
+// console.log('password', password)
+// console.log(backendURL)
+
+// config = {
+//   routerBasename: '/',
+//   filterQueryParam: true,
+//   extensions: [OHIFDicomSegmentationExtension],
+//   servers: {
+//     dicomWeb: [
+//       {
+//         name: 'DCM4CHEE',
+//         // wadoUriRoot: 'http://localhost:5000/pacs-wado/0/admin/123456',
+//         // qidoRoot: 'http://localhost:5000/pacs-qido/0/admin/123456',
+//         // wadoRoot: 'http://localhost:5000/pacs-qido/0/admin/123456',
+//         // wadoUriRoot: process.env.APP_CONFIG.replace('pacs-qido', 'pacs-wado'),
+//         // qidoRoot: process.env.APP_CONFIG,
+//         // wadoRoot: process.env.APP_CONFIG,
+//         // wadoUriRoot: backendURL + datasetID + '/' + username + '/' + password,// 'http://localhost:8080/dcm4chee-arc/aets/DCM4CHEE/wado',
+//         // qidoRoot: backendURL + datasetID + '/' + username + '/' + password,// 'http://localhost:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
+//         // wadoRoot: backendURL + datasetID + '/' + username + '/' + password, // 'http://localhost:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
+//         // wadoUriRoot: 'http://pacs-arc-1:8080/dcm4chee-arc/aets/DCM4CHEE/wado',
+//         // qidoRoot: 'http://pacs-arc-1:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
+//         // wadoRoot: 'http://pacs-arc-1:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
+//         wadoUriRoot: 'http://localhost:8080/dcm4chee-arc/aets/DCM4CHEE/wado',
+//         qidoRoot: 'http://localhost:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
+//         wadoRoot: 'http://localhost:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
+//         qidoSupportsIncludeField: false,
+//         imageRendering: 'wadors',
+//         thumbnailRendering: 'wadors',
+//         enableStudyLazyLoad: true,
+//         supportsFuzzyMatching: true,
+//       }
+//     ]
+//   }
+// }
+
+// config = {
+//   routerBasename: '/',
+//   filterQueryParam: true,
+//   //      extensions: [OHIFExtDicomMicroscopy],
+//   servers: {
+//     dicomWeb: [
+//       {
+//         name: 'DCM4CHEE',
+//         wadoUriRoot: 'http://129.206.147.55:8080/dcm4chee-arc/aets/DCM4CHEE/wado',
+//         qidoRoot: 'http://129.206.147.55:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
+//         wadoRoot: 'http://129.206.147.55:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
+//         qidoSupportsIncludeField: false,
+//         imageRendering: 'wadors',
+//         thumbnailRendering: 'wadors',
+//         enableStudyLazyLoad: true,
+//         supportsFuzzyMatching: true
+//       }
+//     ]
+//   }
+// }
 
 if (window) {
   config = window.config || {};

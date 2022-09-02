@@ -226,7 +226,7 @@ function StudyListRoute(props) {
           </UserManagerContext.Consumer>
         )}
       </WhiteLabelingContext.Consumer>
-      <div className="study-list-header">
+      {/* <div className="study-list-header">
         <div className="header">
           <h1 style={{ fontWeight: 300, fontSize: '22px' }}>
             {t('StudyList')}
@@ -241,7 +241,7 @@ function StudyListRoute(props) {
           )}
           <span className="study-count">{studies.length}</span>
         </div>
-      </div>
+      </div> */}
 
       <div className="table-head-background" />
       <div className="study-list-container">
@@ -427,7 +427,7 @@ function _sortStudies(studies, field, order) {
   });
 
   // Sort by field
-  sortedStudies.sort(function(a, b) {
+  sortedStudies.sort(function (a, b) {
     let fieldA = a[field];
     let fieldB = b[field];
     if (field === 'StudyDate') {

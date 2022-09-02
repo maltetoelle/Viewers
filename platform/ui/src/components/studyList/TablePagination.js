@@ -44,6 +44,7 @@ class TablePagination extends PureComponent {
                   onClick={this.prevPage}
                   disabled={this.props.currentPage === 0}
                   className="btn page-link"
+                  // style={{ backgroundColor: '#7c95ac' }}
                 >
                   {this.props.t('Previous')}
                 </button>
@@ -56,6 +57,7 @@ class TablePagination extends PureComponent {
                     this.props.rowsPerPage > this.props.recordCount
                   }
                   className="btn page-link"
+                  // style={{ backgroundColor: '#7c95ac' }}
                 >
                   {this.props.t('Next')}
                 </button>

@@ -19,15 +19,9 @@ window.config = {
     dicomWeb: [
       {
         name: 'DCM4CHEE',
-        wadoUriRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/wado',
-        qidoRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/rs',
-        wadoRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/rs',
-        // wadoUriRoot: 'http://localhost:5000/pacs-wado/0/admin/123456',
-        // qidoRoot: 'http://localhost:5000/pacs-qido/0/admin/123456',
-        // wadoRoot: 'http://localhost:5000/pacs-qido/0/admin/123456',
-        // wadoUriRoot: 'http://localhost:8080/dcm4chee-arc/aets/DCM4CHEE/wado',
-        // qidoRoot: 'http://localhost:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
-        // wadoRoot: 'http://localhost:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
+        wadoUriRoot: 'http://pacs-arc-1:8080/dcm4chee-arc/aets/DCM4CHEE/wado',
+        qidoRoot: 'http://pacs-arc-1:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
+        wadoRoot: 'http://pacs-arc-1:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
         qidoSupportsIncludeField: true,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',

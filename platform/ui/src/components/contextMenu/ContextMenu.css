@@ -1,6 +1,6 @@
 .ContextMenu {
   position: relative;
-  background-color: white;
+  background-color: #f8f9fa;
   border-radius: 5px;
   z-index: 1000;
   display: block;
